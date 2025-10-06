@@ -1,0 +1,22 @@
+.pentagon {
+  width: 100px;
+  height: 100px;
+  background-color: var(--primary-color);
+  clip-path: polygon(
+    50% 0%,
+    100% 38%,
+    82% 100%,
+    18% 100%,
+    0% 38%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 15px;
+}
+
+.pentagon .icon {
+  color: #fff;
+  font-size: 2rem;
+}
+
