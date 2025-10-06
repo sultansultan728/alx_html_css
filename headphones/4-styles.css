@@ -1,0 +1,71 @@
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 50px 20px 30px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.footer-logo {
+  max-height: 40px;
+}
+
+.footer-nav {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-nav a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-nav a:hover,
+.footer-nav a:active {
+  color: var(--primary-color);
+}
+
+.footer-social {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icon {
+  font-family: 'HolbertonSchoolIcon';
+  font-size: 1.5rem;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+  color: var(--primary-color);
+}
+
+.icon-facebook::before {
+  content: "\e007"; /* Replace with correct code from demo.html */
+}
+
+.icon-twitter::before {
+  content: "\e008"; /* Replace with correct code */
+}
+
+.icon-instagram::before {
+  content: "\e009"; /* Replace with correct code */
+}
+
+.footer-copy {
+  margin-top: 30px;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
